@@ -86,9 +86,9 @@ and using it will lose the sense that we created `br0` (`virbr0` is NAT but we
 need DHCP)
 
 ## Reference
-<a href="https://zhuanlan.zhihu.com/p/37635040"> 如何在 Ubuntu 18.04 服务器上安装和配置 KVM </a>
-<a href="https://shenxiaohai.me/2018/06/28/gpu-server/"> 搭建公用GPU服务器过程记录 </a>
-<a href="http://notes.maxwi.com/2016/11/29/kvm-create-and-manage/"> Ubuntu Server/Debian下的KVM虚拟机创建及管理详解 </a>
-<a href="https://blog.ubuntu.com/2017/12/01/ubuntu-bionic-netplan"> Ubuntu Bionic: Netplan </a>
-<a href="https://www.iyunv.com/thread-387743-1-1.html"> 理解 virbr0 </a>
-<a href="https://askubuntu.com/questions/246343/what-is-the-virbr0-interface-used-for"> What is the virbr0 interface used for>
+* <a href="https://zhuanlan.zhihu.com/p/37635040"> 如何在 Ubuntu 18.04 服务器上安装和配置 KVM </a>
+* <a href="https://shenxiaohai.me/2018/06/28/gpu-server/"> 搭建公用GPU服务器过程记录 </a>
+* <a href="http://notes.maxwi.com/2016/11/29/kvm-create-and-manage/"> Ubuntu Server/Debian下的KVM虚拟机创建及管理详解 </a>
+* <a href="https://blog.ubuntu.com/2017/12/01/ubuntu-bionic-netplan"> Ubuntu Bionic: Netplan </a>
+* <a href="https://www.iyunv.com/thread-387743-1-1.html"> 理解 virbr0 </a>
+* <a href="https://askubuntu.com/questions/246343/what-is-the-virbr0-interface-used-for"> What is the virbr0 interface used for</a>
