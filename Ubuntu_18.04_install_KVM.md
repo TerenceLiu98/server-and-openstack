@@ -32,7 +32,8 @@ Only by network connecting bridge, the KVM virtual machine can access the extern
 KVM manager or host. In Ubuntu 18.04, the network is managed by the netplan
 utility, which automatically creates a file called`/etc/netplan/50-cloud-init.yaml`
 whenever we install a new Ubuntu 18.04 system, which the `netplan` utility will
-reference. \\
+reference.
+
 **ATTENTION** since the configuration file is written by `yaml`, we should make
 sure your indentation has no mistake!!
 ```{yaml}
