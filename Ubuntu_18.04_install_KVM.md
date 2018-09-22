@@ -4,6 +4,30 @@ Since my mis-operation, I wrote a wrong boot loader. I installed a ubuntu 18.04
 into the server. But I think it is not a big deal. So, I tried to install the KVM.
 Here, I will share my experiences and operations.
 
+## How to Use KVM
+
+#### Preparation
+**Please check if your device supports the KVM**: ` grep -c 'kmx|svm' /proc/cpuinfo`
+if the output is larger than 0, it means you can use KVM on your device.
+
+### Installation
+Before we install the KVM module we need to set up the the **Networking**. There are two types of Networking: Usermode Notworking and Bridged Networking.
+
+### Usermode Networking
+This is the default configuration. In this mode, the virtual-machine can be only accessed by the host-machine and it is not visible to other machines on the network.
+
+### Bridged Networking
+However, using the bridged Networking setting, the virtual-machine is visible for the other machines on the network since bridged networking allows the virtual interfaces to connect to the outside network through the physical interface, making them appear as normal hosts to the rest of the network.
+
+In this section we only set up the second mode: Bridged Networking for we have to connected to virtual-machine via the internal network.
+
+*if your system version is a 'desktop', your device's network is manage by the [NetworkManger] and [NetworkManger] is not supporting the Bridged mode, we have to shut it down first:*
+``` shell
+chkconfig NetworkManager off
+chkconfig network on
+service NetworkManager stop
+service network start
+```
 ## Install KVM and its dependent packages
 
 ```{shell}
