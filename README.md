@@ -19,3 +19,5 @@ Blogs from people active in KVM-related virtualization development are syndicate
 This is the structure of KVM
 
 [![400px-Kernel-based_Virtual_Machine.svg.png](https://i.loli.net/2018/09/22/5ba5b478deef7.png)](https://i.loli.net/2018/09/22/5ba5b478deef7.png)
+
+## OpenStack
