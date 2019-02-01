@@ -1,6 +1,6 @@
 #/bin/zsh
 brew install privoxy
-echo -n "Enter your http/https PORT ->"
+echo -n "<- Enter your http/https PORT ->"
 read  PORT
 echo "PORT = $PORT"
 echo "function proxy_off(){" >> ~/.bash_profile
