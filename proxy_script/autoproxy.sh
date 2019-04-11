@@ -1,4 +1,4 @@
-#/bin/zsh
+#/bin/bash
 brew install privoxy
 echo -n "<- Enter your http/https PORT ->"
 read  PORT
