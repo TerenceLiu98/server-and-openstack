@@ -24,13 +24,12 @@ This is the structure of KVM
 $\dots$
 
 ## To-DO List
-
--[] Intranet Mirror
-  -[] CRAN
-  -[] CTAN
-  -[] pypi
-  -[] tensorflow
-  -[] ubuntu (1804 bionic)
--[] IRC
--[] GitLab
--[] OpenStack
+- [ ] Intranet Mirror
+  - [ ] CRAN
+  - [ ] CTAN
+  - [ ] pypi
+  - [ ] tensorflow
+  - [ ] ubuntu (1804 bionic)
+- [ ] IRC
+- [ ] GitLab
+-[ ] OpenStack
