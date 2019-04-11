@@ -21,3 +21,16 @@ This is the structure of KVM
 [![400px-Kernel-based_Virtual_Machine.svg.png](https://i.loli.net/2018/09/22/5ba5b478deef7.png)](https://i.loli.net/2018/09/22/5ba5b478deef7.png)
 
 ## OpenStack
+$\dots$
+
+## To-DO List
+
+-[] Intranet Mirror
+  -[] CRAN
+  -[] CTAN
+  -[] pypi
+  -[] tensorflow
+  -[] ubuntu (1804 bionic)
+-[] IRC
+-[] GitLab
+-[] OpenStack
