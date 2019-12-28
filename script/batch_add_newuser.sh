@@ -32,7 +32,7 @@ echo "The users password is $password"
 echo
 echo
 chage -d 0 ${line}
-
+chmod 0700 /home/${line}
 done
 
 exit 0
